@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
 
+/* Padronização inicial da raiz do HTML */
 * {
   margin: 0;
   padding: 0;
@@ -14,6 +15,8 @@ html, body {
   background-attachment: fixed;
   overflow-x: hidden;
 }
+
+/* Cabeçalho */
 
 header {
   width: 100%;
@@ -52,6 +55,8 @@ header button#login:hover {
   background-color: #fff;
   color: #00d2ff;
 }
+
+/* Dropdown */
 
 nav ul {
   list-style: none;
@@ -141,6 +146,7 @@ nav ul button:hover {
   display: block;
 }
 
+/* Estilos para o mobile */
 @media (max-width: 768px) {
   body {
     overflow-x: hidden;
@@ -231,6 +237,7 @@ nav ul button:hover {
   }
 }
 
+/* Rodapé */
 footer {
   width: 100%;
   padding: 1.2rem 2rem;
